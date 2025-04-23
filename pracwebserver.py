@@ -6,7 +6,7 @@ serverPort = 8000            # 사용할 포트 번호 (브라우저에선 :8000
 
 # 요청 처리 클래스 정의 (GET, POST 처리용)
 class MyServer(BaseHTTPRequestHandler):
-
+   
     def do_GET(self):  # GET 요청이 들어왔을 때 호출됨
         temperature = None
         humidity = None
